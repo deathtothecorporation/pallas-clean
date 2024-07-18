@@ -246,7 +246,7 @@ are most appropriate:
 That said, we encourage you to dive even deeper and submit PRs beyond these
 suggestions.
 
-#TODO link to a `contributing.md`
+[CONTRIBUTING.md](https://github.com/operating-function/pallas/blob/master/CONTRIBUTING.md)
 
 ## Additional Resources
 
