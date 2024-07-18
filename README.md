@@ -30,15 +30,10 @@ Pallas provides the following features out of the box, without any special confi
 
 ## Installation
 
-_COMING SOON_: Installation instructions for MacOS.
-
-### Quick Start (Ubuntu/Debian-based)
+### Quick Start (Ubuntu/Debian-based and MacOS)
 
 The quickest way to run Pallas is by installing a few dependencies and grabbing
 a pre-built binary.
-
-_We provide a very simple install script for Ubuntu/Debian at `bin/install.sh` that
-does the following for you. Or you can proceed manually:_
 
 1. Install dependencies:
 
@@ -56,13 +51,21 @@ sudo apt-get update && sudo apt-get install -y \
     zlib1g
 ```
 
-_Note: libm and libc are standard system libraries and should already be present on any Linux system._
+On MacOS, [Homebrew](https://brew.sh/) is a good option (assumes you have Homebrew installed):
+
+```console
+brew install gmp lmdb zlib
+```
 
 2. Get a prebuilt binary:
 
-Download the binary from here: [https://pallas-binaries.nyc3.cdn.digitaloceanspaces.com/test/pallas](https://pallas-binaries.nyc3.cdn.digitaloceanspaces.com/test/pallas) (your browser may not prompt to download this binary, see below).
+Currently we provide the following prebuilt binaries:
+- Linux x86_64: [https://pallas-binaries.nyc3.cdn.digitaloceanspaces.com/linux_x86_64/pallas](https://pallas-binaries.nyc3.cdn.digitaloceanspaces.com/linux_x86_64/pallas)
+- Mac arm64/aarch64 (M1 macs): [https://pallas-binaries.nyc3.cdn.digitaloceanspaces.com/apple_m1_arm64/pallas](https://pallas-binaries.nyc3.cdn.digitaloceanspaces.com/apple_m1_arm64/pallas)
 
-`curl -L https://pallas-binaries.nyc3.cdn.digitaloceanspaces.com/test/pallas -o pallas`
+Your browser may not prompt to download these files, in which case you can use `cURL`:
+
+`curl -L <URL of your choice here> -o pallas`
 
 Make it executable and move it somewhere on your path.
 
