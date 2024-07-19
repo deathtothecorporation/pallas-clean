@@ -24,9 +24,18 @@ Pallas provides the following features out of the box, without any special confi
 - Natively networked with public keys as endpoints
 - Serializable closures that can be transferred over the network
 
+This project is a fork of [Plunder](https://sr.ht/~plan/plunder/).
+
 ## Caveats
 
-#TODO current experimental nature of the repo, what's ready, what's not, etc.
+Despite being in development for
+[over four years](https://github.com/urbit/urbit/blob/skew/pkg/hs/urbit-skew/skew.md),
+Pallas is still considered to be a prototype implementation.
+Anything explicitly mentioned in this README or the documentation does work as
+advertised, but other areas of the repo are less complete, including:
+
+- TODO: Haskell runtime
+- TODO
 
 ## Installation
 
