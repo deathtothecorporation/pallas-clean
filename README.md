@@ -20,7 +20,7 @@ Pallas provides the following features out of the box, without any special confi
 
 - Automatic orthogonal persistence
 - Extreme portability and trust profile (the only dependency is the runtime, and we have a completely dependency free and realistically auditable C runtime under development)
-- Merkleized state and content-addressable memory pages (data, code, running programs)
+- Merkleized and deduplicated state with content-addressable memory pages (data, code, running programs)
 - Natively networked with public keys as endpoints
 - Serializable closures that can be transferred over the network
 - Parallel execution
