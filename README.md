@@ -37,10 +37,11 @@ New compilers can and should be written, but at the moment the only practical la
 For all programs written in Sire, Pallas provides the following features out of the box, without any special configuration or external libraries:
 
 - Automatic orthogonal persistence
-- Extreme portability with zero external dependencies
-- Merkleized state and content-addressable memory pages (data, code, running programs)
+- Extreme portability and trust profile (the only dependency is the runtime, and we have a completely dependency free and realistically auditable C runtime under development)
+- Merkleized and deduplicated state with content-addressable memory pages (data, code, running programs)
 - Natively networked with public keys as endpoints
 - Serializable closures that can be transferred over the network
+- Parallel execution
 
 This project is a fork of [Plunder](https://sr.ht/~plan/plunder/).
 
